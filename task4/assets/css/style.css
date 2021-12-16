@@ -1,0 +1,57 @@
+.popup {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #0000008a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: none;
+}
+
+.popup .inner {
+  position: relative;
+  border: 8px solid #fff;
+}
+
+.popup .inner .close-icon {
+  position: absolute;
+  top: -18px;
+  right: -14px;
+  cursor: pointer;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.popup .inner .close-icon i {
+  color: white;
+  font-size: 25px;
+}
+
+.popup .inner .arrows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  top: 45%;
+}
+
+.popup .inner .arrows i {
+  cursor: pointer;
+  color: white;
+  font-size: 25px;
+}
